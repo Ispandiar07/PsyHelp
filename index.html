@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>PsyHelp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌿 PsyHelp</h1>
+    <p class="subtitle">Өзіңді қалай сезініп тұрсың?</p>
+
+    <div class="moods">
+        <button onclick="setMood('sad')">😔 Көңілсіз</button>
+        <button onclick="setMood('tired')">😴 Шаршадым</button>
+        <button onclick="setMood('anxious')">😟 Уайым</button>
+        <button onclick="setMood('happy')">😊 Жақсы</button>
+    </div>
+
+    <div class="card">
+        <p id="message">Көңіл-күйіңді таңда</p>
+    </div>
+
+    <button class="reset" onclick="resetMood()">Қайта таңдау</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
